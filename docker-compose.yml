@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  brave:
+    build: .
+    image: brave:latest
+    volumes:
+      - ~/sccache:/sccache
